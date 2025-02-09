@@ -78,6 +78,20 @@ int main() {
 
         }
 
+        Player Wrapping around the screen.
+        if (player.position.x >GetScreenWidth()) {
+            player.position.x = player.position.x - GetScreenWidth();
+        }
+        if (player.position.x <0) {
+            player.position.x = GetScreenWidth();
+        }
+        if (player.position.y >GetScreenHeight()) {
+            player.position.y = player.position.y - GetScreenHeight();
+        }
+        if (player.position.y <0) {
+            player.position.y = GetScreenHeight();
+        }
+
         //Draw Images
         BeginDrawing();
         ClearBackground(BLACK);

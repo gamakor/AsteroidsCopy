@@ -55663,6 +55663,20 @@ int main() {
         }
 
 
+        if (player.position.x >GetScreenWidth()) {
+            player.position.x = player.position.x - GetScreenWidth();
+        }
+        if (player.position.x <0) {
+            player.position.x = GetScreenWidth();
+        }
+        if (player.position.y >GetScreenHeight()) {
+            player.position.y = player.position.y - GetScreenHeight();
+        }
+        if (player.position.y <0) {
+            player.position.y = GetScreenHeight();
+        }
+
+
         BeginDrawing();
         ClearBackground(Color{ 0, 0, 0, 255 });
         player.Draw();
