@@ -1,16 +1,15 @@
 /var/lib/snapd/snap/clion/314/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/var/lib/snapd/snap/clion/314/bin/ninja/linux/x64/ninja -G Ninja -S /home/gamakor/CLionProjects/AsteroidsCopy -B /home/gamakor/CLionProjects/AsteroidsCopy/cmake-build-debug
--- The C compiler identification is GNU 14.2.1
--- The CXX compiler identification is GNU 14.2.1
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Configuring done (0.8s)
+-- Testing if -Werror=pointer-arith can be used -- compiles
+-- Testing if -Werror=implicit-function-declaration can be used -- compiles
+-- Testing if -fno-strict-aliasing can be used -- compiles
+-- Using raylib's GLFW
+-- Including X11 support
+-- Audio Backend: miniaudio
+-- Building raylib static library
+-- Generated build type: Debug
+-- Compiling with the flags:
+--   PLATFORM=PLATFORM_DESKTOP
+--   GRAPHICS=GRAPHICS_API_OPENGL_33
+-- Configuring done (0.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/gamakor/CLionProjects/AsteroidsCopy/cmake-build-debug
